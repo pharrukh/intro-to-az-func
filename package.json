@@ -1,9 +1,13 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "scripts": {
-    "test": "echo \"No tests yet...\""
+  "name": "intro-to-az-func",
+  "version": "0.0.1",
+  "description": "Introduction to Azure Functions showcase codebase",
+  "scripts": {},
+  "author": "Farrukh Normuradov",
+  "dependencies": {
+    "azure-storage": "^2.10.3"
   },
-  "author": ""
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
 }
