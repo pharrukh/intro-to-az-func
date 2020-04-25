@@ -1,2 +1,3 @@
-# intro-to-az-func-webinar
-Code for the Webinar on 2020-04-18
+# intro-to-az-func
+
+Example project to showcase Azure Function and related Azure capabilities.
