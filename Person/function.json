@@ -13,9 +13,25 @@
       ]
     },
     {
+      "name": "personEntity",
+      "type": "table",
+      "tableName": "Persons",
+      "partitionKey": "Persons",
+      "rowKey": "{id}",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    },
+    {
+      "tableName": "Persons",
+      "connection": "AzureWebJobsStorage",
+      "name": "tableBinding",
+      "type": "table",
+      "direction": "out"
+    },
+    {
       "type": "http",
       "direction": "out",
-      "name": "res"
+      "name": "$return"
     }
   ]
 }
